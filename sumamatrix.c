@@ -14,10 +14,10 @@ int main()
     int Matrix[n][m];
     
 
-
+    printf("primera matrix");
     for (int i = 0; i < n; i++)
     {           //for para imprimir la matrix  
-         printf("primera matrix");
+        
         printf("\n");
 
         for (int j = 0; j < m; j++)
@@ -26,8 +26,10 @@ int main()
 
             printf("%d\t", Matrix[i][j]);
         }
+        
     }
-          printf("segunda matrix");
+        printf("\n");
+       printf("segunda matrix");   
         printf("\n");
          srand(time(NULL));
      
