@@ -48,7 +48,18 @@ int main()
             printf("%d\t", Matrix2[i][j]);
         }
     }
-    
+    int matrixre[n][m];
+     printf("\nResultado de la suma de las matrices:\n");
+    for (int i = 0; i < n; i++)
+    {
+        printf("\n");
+        for (int j = 0; j < m; j++)
+        {
+            matrixre[i][j] = Matrix[i][j] + Matrix2[i][j];
+            printf("%d\t", matrixre[i][j]);
 
-    return 0;
-}
+        }
+       }
+        return 0;
+    }
+    
