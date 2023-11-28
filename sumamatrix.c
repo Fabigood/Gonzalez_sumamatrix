@@ -54,7 +54,7 @@ int main()
     {
         printf("\n");
         for (int j = 0; j < m; j++)
-        {
+        {//se crea el for apra sumar las matrices dadas
             matrixre[i][j] = Matrix[i][j] + Matrix2[i][j];
             printf("%d\t", matrixre[i][j]);
 
